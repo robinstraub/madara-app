@@ -37,7 +37,7 @@ export function createWsEndpoints (t: TFunction = defaultT): LinkOption[] {
       ui: {},
       value: ''
     },
-    ...expandEndpoints(t, testChains, false, false), */
+    ...expandEndpoints(t, testChains, firstOnly, withSort), */
 
     {
       isDevelopment: true,
