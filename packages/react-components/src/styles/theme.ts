@@ -7,7 +7,7 @@ export const colorBtnDefault = '#767778';
 export const colorBtnShadow = '#98999a';
 
 /* highlighted buttons, orange */
-export const colorBtnHighlight = '#f19135';
+export const colorBtnHighlight = '#A50C0E';
 
 /* primary buttons, blue */
 export const colorBtnPrimary = colorBtnDefault; // '#2e86ab';
@@ -15,7 +15,7 @@ export const colorBtnPrimary = colorBtnDefault; // '#2e86ab';
 /* button text color */
 export const colorBtnText = '#f9f8f7';
 
-export const colorLink = '#2e86ab';
+export const colorLink = '#A50C0E';
 
 export default `
   .theme--dark,
