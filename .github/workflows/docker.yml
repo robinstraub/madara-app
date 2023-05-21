@@ -6,7 +6,7 @@ on:
       - created
   push:
     branches:
-      - ci/add-docker-build-action
+      - ci/fix-dockerfile-path
 
 jobs:
   build-and-push:
