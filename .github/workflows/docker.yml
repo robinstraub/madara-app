@@ -1,12 +1,11 @@
 name: Build and Push Docker Image
 
-on:
-  release:
-    types:
-      - created
-  push:
-    branches:
-      - ci/fix-dockerfile-path
+#on:
+#  release:
+#    types:
+#      - created
+
+on: [pull_request]
 
 jobs:
   build-and-push:
