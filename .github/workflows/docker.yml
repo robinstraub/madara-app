@@ -1,11 +1,9 @@
 name: Build and Push Docker Image
 
-#on:
-#  release:
-#    types:
-#      - created
-
-on: [pull_request]
+on:
+  release:
+    types:
+      - created
 
 jobs:
   build-and-push:
